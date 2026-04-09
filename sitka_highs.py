@@ -1,3 +1,4 @@
+# Made By Deadcode
 import csv
 
 from datetime import datetime
@@ -5,7 +6,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 
-#CSV File name.
+# CSV File name.
 filename = 'sitka_weather_2018_simple.csv'
 
 with open (filename) as f:
@@ -57,5 +58,5 @@ else:
 with open(file_path, 'w') as f:
     f.write(str(new_name))
 
-plt.savefig(f'imgs/sitka_weather{new_name}.png', bbox_inches='tight')
+plt.savefig(f'sitka_weather{new_name}.png', bbox_inches='tight')
 plt.show()
