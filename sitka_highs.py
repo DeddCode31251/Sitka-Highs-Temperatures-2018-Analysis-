@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 #CSV File name.
-filename = 'data/sitka_weather_2018_simple.csv'
+filename = 'sitka_weather_2018_simple.csv'
 
 with open (filename) as f:
     reader = csv.reader(f)
